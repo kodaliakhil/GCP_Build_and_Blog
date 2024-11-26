@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Reserve   Bank of India</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Link to Dialogflow Messenger's stylesheet -->
+    <link
+      rel="stylesheet"
+      href="https://www.gstatic.com/dialogflow-console/fast/df-messenger/prod/v1/themes/df-messenger-default.css"
+    />
+
+    <!-- Optional additional styling for customization -->
+    <style>
+      df-messenger {
+        z-index: 9999;
+        position: fixed;
+        --df-messenger-font-color: #000;
+        --df-messenger-font-family: Google Sans;
+        --df-messenger-chat-background: #f3f6fc;
+        --df-messenger-message-user-background: #d3e3fd;
+        --df-messenger-message-bot-background: #fff;
+        bottom: 16px;
+        right: 16px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Dialogflow Messenger integration -->
+    <df-messenger
+      project-id="phonic-chariot-442804-b6"
+      agent-id="94ca9271-afc5-4885-9aa7-2f654e5d9843"
+      language-code="en"
+      max-query-length="-1"
+    >
+      <df-messenger-chat-bubble chat-title="rbi_admin">
+      </df-messenger-chat-bubble>
+    </df-messenger>
+
+    <!-- Script to load the Dialogflow Messenger -->
+    <script src="https://www.gstatic.com/dialogflow-console/fast/df-messenger/prod/v1/df-messenger.js"></script>
+
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#news">News</a></li>
+          <li><a href="#currency">Currency</a></li>
+          <li><a href="#financial-literacy">Financial Literacy</a></li>
+          <li><a href="#regulatory-framework">Regulatory Framework</a></li>
+          <li><a href="#contact">Contact Us</a></li>
+        </ul>
+      </nav>
+      <h1>Reserve Bank of India</h1>
+    </header>
+
+    <section id="news">
+      <h2>Latest News and Announcements</h2>
+      <article>
+        <h3>RBI Cuts Repo Rate by 25 Basis Points</h3>
+        <p>
+          The Reserve Bank of India (RBI) today announced a reduction in the
+          repo rate by 25 basis points to 6.25%. This move is aimed at boosting
+          economic growth.
+        </p>
+      </article>
+      <article>
+        <h3>New Guidelines for Digital Lending</h3>
+        <p>
+          The RBI has issued new guidelines for digital lending, focusing on
+          fair practices, transparency, and consumer protection.
+        </p>
+      </article>
+    </section>
+
+    <section id="currency">
+      <h2>Currency Information</h2>
+      <p>
+        Get the latest exchange rates, information on Indian currency, and
+        details about currency exchange.
+      </p>
+      <a href="https://www.rbi.org.in/Scripts/Publications/CurInf/default.aspx"
+        >Exchange Rates</a
+      >
+      <a
+        href="https://www.rbi.org.in/Scripts/Publications/CurInf/PNotes/default.aspx"
+        >Indian Currency</a
+      >
+    </section>
+
+    <section id="financial-literacy">
+      <h2>Financial Literacy</h2>
+      <p>
+        Learn about various financial topics, from saving and investing to
+        insurance and loans.
+      </p>
+      <a href="https://www.rbi.org.in/Scripts/Publications/FinLit/default.aspx"
+        >Financial Literacy Resources</a
+      >
+    </section>
+
+    <section id="regulatory-framework">
+      <h2>Regulatory Framework</h2>
+      <p>
+        Explore the regulatory guidelines and policies for the banking and
+        financial sector.
+      </p>
+      <a
+        href="https://www.rbi.org.in/Scripts/Publications/MasterCirculars/default.aspx"
+        >Master Circulars</a
+      >
+      <a
+        href="https://www.rbi.org.in/Scripts/Publications/PressReleases/default.aspx"
+        >Press Releases</a
+      >
+    </section>
+
+    <footer>
+      <p>Reserve Bank of India</p>
+      <p>Contact Information: [Phone number, email, address]</p>
+      <p>Social Media Links: [Links to RBI's social media profiles]</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
